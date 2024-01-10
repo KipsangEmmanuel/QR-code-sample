@@ -1,0 +1,58 @@
+.body {
+    background-color: #dbe4f2;
+}
+h1, p, a {
+    margin-top: 20px;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+  }
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .para {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card .para a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.card .para a:hover {
+    text-decoration: underline;
+}
+.faded {
+    opacity: 0.7;
+}
+
+
+@media (max-width: 600px) {
+    /* small screens */
+    .card {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .card .para {
+        margin-top: 10px;
+    }
+}
